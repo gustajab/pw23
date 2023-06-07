@@ -3,6 +3,12 @@
 @section('title', 'Produtos')
 
 @section('content')
+@if(session('sucesso'))
+<div style="background-color: greenyellow; color:peru;">
+    {{ session('sucesso') }}
+    <marquee speed="10">
+    </div>
+    @endif
     <table border="5" style="border-color:chocolate">
         <tr>
             <th>Nome</th>

@@ -9,7 +9,16 @@
 <body>
 
     <h1>Site lindão</h1>
-    <hr>
+    <!-- Menu -->
+    <div>
+        <ul>
+            <li><a href="{{ route('home')}}">Home</a></li>
+            <li><a href="{{ route('produtos')}}">Produtos</a></li>
+        </ul>
+    </div>
+    <hr style="background-color: deepskyblue;">
+    {{-- Conteúdo --}}
+
     @yield('content')
 
 </body>
