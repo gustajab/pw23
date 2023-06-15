@@ -1,3 +1,4 @@
+{{-- resources/views/welcome.blade.php --}}
 @extends('includes.base')
 
 @section('title', 'Página legal')
